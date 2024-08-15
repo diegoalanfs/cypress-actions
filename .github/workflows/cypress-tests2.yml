@@ -1,4 +1,4 @@
-name: Cypress Tests 2
+TRONname: Cypress Tests 2
 
 on: 
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
       - name: Run E2E tests
         run: node runner-electron.js
     env:
-      TARGET_TOKEN: ${{ secrets.TARGET_TOKEN }}
+      TARGET_TOKEN_ELECTRON: ${{ secrets.TARGET_TOKEN_ELECTRON }}
   cypress-chrome-tests:
     needs: cypress-electron-tests
     runs-on: ubuntu-latest
