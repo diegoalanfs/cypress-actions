@@ -44,7 +44,7 @@ jobs:
           install-comand: yarn install
           browser: chrome
           record: true
-          group: UI Chorme
+          group: UI Chrome
           spec: ${{ github.event.iputs.spec }}
         env:
           CYPRESS_RECORD_KEY: 52497340-f338-4613-a5e1-69de3f24f859
