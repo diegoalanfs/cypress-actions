@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       cli:
-        description: Run by cypress node command
+        description: Run by cypress command line
         default: cypress/e2e/*
 
 jobs: 
