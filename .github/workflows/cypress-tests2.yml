@@ -1,4 +1,4 @@
-TRONname: Cypress Tests 2
+name: Cypress Tests 2
 
 on: 
   workflow_dispatch:
